@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lobline_pick",
+    "customModelName": "Normal",
+    "name": "Lobline Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoblineTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 10,
+    "damageVsEntity": 4.0,
+    "usageCount": 290,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lobline"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "LoblinePickaxeItemIsCraftedsmelted"
+    }
+  }
+}

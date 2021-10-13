@@ -1,0 +1,122 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Purple Cap Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -14425136,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -14289431,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -14620709,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13764954,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13764954,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.0,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.75,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.30000000000000004,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [
+      "PLAINS",
+      "SWAMP",
+      "MUSHROOM"
+    ],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 20,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 2,
+    "bigMushroomsChunk": 4,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 5,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:PurpleCapStem"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:PurpleCaptop"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAmbientCreature"
+        },
+        "minGroup": 4,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

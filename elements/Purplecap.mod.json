@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "purple_mushroom_stew",
+    "customModelName": "Normal",
+    "name": "Purple Cap Stew",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoblineTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.7,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.BOWL"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "PurplecapFoodEaten"
+    }
+  }
+}
